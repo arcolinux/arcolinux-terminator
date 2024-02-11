@@ -1,0 +1,26 @@
+[global_config]
+  enabled_plugins = TerminalShot, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.81
+    background_type = transparent
+    font = Hack 12
+    scrollback_lines = 50000
+    use_system_font = False
+    use_theme_colors = True
+    title_hide_sizetext = True
+    title_transmit_bg_color = "#241f31"
+    title_inactive_fg_color = "#9a9996"
+    title_inactive_bg_color = "#241f31"
+    title_use_system_font = False
+    title_font = Hack 10
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
